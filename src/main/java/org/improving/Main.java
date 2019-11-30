@@ -7,6 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         var purchaseClient = new PurchaseClient();
-        System.out.println(purchaseClient.getPurchases());
+        var purchaseRepository = new PurchaserRepository();
+        System.out.println(purchaseRepository.getPurchaseList());
     }
 }
